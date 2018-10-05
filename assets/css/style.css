@@ -1,6 +1,6 @@
 body {
     background-color: lightgray;
-    margin: 0;
+    margin: 0 auto;
     width: 100%;
 }
 
@@ -25,23 +25,25 @@ header {
     margin-right: 15%;
 }
 .heading {
-    margin: 0 25% 0 20%;
+    margin: 0 25% 0 16%;
     padding: 20px;
     color: #ffffff;
     background-color: #4aaaa5;
 }
 .theLinks h4 {
-    margin: 20px 10px 5px 10px;
+    margin: 20px 0 5px 20px;
 }
-.aboutMe {
+.mainContent {
     width: 912px;
-    margin: 0 16% 0 21%;
+    margin: 0 16%;
     background-color: #ffffff;
     padding: 1% 2% 3% 20px;
     border: 1px solid #dddddd;
+    overflow: auto;
 }
 
 .line {
+    margin-right: 0;
     padding: 0 20px 0 0;
     border-right: 1px solid lightgrey;
 
@@ -70,10 +72,40 @@ img {
     padding: 1%;
 }
 
-.paragraphs p {
-    
-}
-
 h3 {
     font-weight: normal;
+}
+.wholeThing {
+    width: auto;
+    height: auto;
+}
+
+.rowOne {
+    width: 100%;
+    margin: 5% 0 0 0;
+}
+.text {
+    width: 150px;
+    padding: 37px;
+    position: relative;
+    right: 209px;
+    padding-right: 32px;
+    bottom: 55px;
+    background-color: #4aaaa5;
+    opacity: .8;
+    color: black;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    top: 125px;
+}
+.rowContent img{
+    height: 200px;
+    width: 200px;
+    margin-left: 20%;
+}
+.rowContent {
+}
+
+.text {
+    display: inline;
 }
