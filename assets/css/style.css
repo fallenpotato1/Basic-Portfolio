@@ -73,7 +73,6 @@ img {
     float: left;
     padding: 1%;
     border-radius: 25px;
-    background-color: gray;
 }
 
 h3 {
@@ -126,6 +125,8 @@ h3 {
 }
 .aLink a {
     margin-right: 50%;
+    background-color: gray;
+    border-radius: 25px;
 }
 form {
     font-size: 20px;
