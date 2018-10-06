@@ -39,7 +39,8 @@ header {
     background-color: #ffffff;
     padding: 1% 2% 3% 20px;
     border: 1px solid #dddddd;
-    overflow: auto;
+    overflow: none;
+    height: auto;
 }
 
 .line {
@@ -77,35 +78,48 @@ h3 {
 }
 .wholeThing {
     width: auto;
-    height: auto;
+    height: 100%;
 }
 
 .rowOne {
     width: 100%;
-    margin: 5% 0 0 0;
+    margin-top: 5%;
+    height: 50%;
 }
-.text {
-    width: 150px;
-    padding: 37px;
-    position: relative;
-    right: 209px;
-    padding-right: 32px;
-    bottom: 55px;
-    background-color: #4aaaa5;
-    opacity: .8;
-    color: black;
-    padding-bottom: 24px;
-    padding-top: 24px;
-    top: 125px;
-}
-.rowContent img{
+
+
+.rowContent {
     height: 200px;
     width: 200px;
     margin-left: 20%;
 }
-.rowContent {
-}
 
-.text {
-    display: inline;
+#firstText {
+    width: 200px;
+    height: 50px;
+    background-color: #4aaaa5;
+    opacity: .8;
+    color: black;
+    position: absolute;
+    top: 315px;
+    left: 424px;
+    text-align: center;
+}
+#secondText {
+    width: 200px;
+    height: 50px;
+    background-color: #4aaaa5;
+    opacity: .8;
+    color: black;
+    position: absolute;
+    top: 315px;
+    left: 724px;
+    text-align: center;
+}
+.aLink {
+    display: flex;
+    flex-direction: row;
+}
+.aLink a {
+    margin-right: 50%
 }
