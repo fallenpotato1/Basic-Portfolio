@@ -126,3 +126,20 @@ h3 {
 .aLink a {
     margin-right: 50%
 }
+form {
+    font-size: 20px;
+}
+input {
+margin-bottom: 1%;
+}
+.message {
+    height: 200px;
+    width: 70%;
+    margin-bottom: 0;
+}
+.submitButton {
+    background-color: #4aaaa5;
+    width: 100px;
+    height: 50px;
+    border: solid white;
+}
