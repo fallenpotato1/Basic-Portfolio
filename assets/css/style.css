@@ -1,13 +1,13 @@
 body {
     background-color: lightgray;
     margin: 0;
-    width: 1349px;
+    width: 100%;
 }
 
 header {
     display: flex;
     flex-direction: row;
-    width: 1349px;
+    width: 100%;
     justify-content: center;
     margin: 0 0 2% 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -34,8 +34,8 @@ header {
     margin: 20px 0 5px 20px;
 }
 .mainContent {
-    width: 912px;
-    margin: 0 16%;
+    width: 70%;
+    margin: 0 15%;
     background-color: #ffffff;
     padding: 1% 2% 3% 20px;
     border: 1px solid #dddddd;
@@ -80,53 +80,50 @@ h3 {
 }
 .wholeThing {
     width: auto;
-    height: 100%;
+    height: auto;
 }
 
 .rowOne {
     width: 100%;
     margin-top: 5%;
-    height: 50%;
+    height: auto;
 }
 
 
 .rowContent {
-    height: 200px;
-    width: 200px;
+    height: auto;
+    width: auto;
     margin-left: 20%;
     margin-bottom: 10%;
 }
 
-#firstText {
+.aLink img {
+    height: 200px;
     width: 200px;
-    height: 50px;
-    background-color: #4aaaa5;
-    opacity: .8;
-    color: black;
-    position: absolute;
-    top: 315px;
-    left: 421px;
-    text-align: center;
 }
-#secondText {
+
+.text {
     width: 200px;
     height: 50px;
     background-color: #4aaaa5;
     opacity: .8;
     color: black;
     position: absolute;
-    top: 315px;
-    left: 721px;
+    top: 132px;
+    left: 2.2px;
     text-align: center;
+    border-radius: 25px;
 }
 .aLink {
     display: flex;
     flex-direction: row;
 }
 .aLink a {
-    margin-right: 50%;
+    width: 205px;
+    margin-right: 20%;
     background-color: gray;
     border-radius: 25px;
+    position: relative;
 }
 form {
     font-size: 20px;
@@ -144,4 +141,36 @@ margin-bottom: 1%;
     width: 100px;
     height: 50px;
     border: solid white;
+}
+
+@media only screen and (max-width: 640px) {
+    .mainContent {
+        width: auto;
+        margin: 0;
+    }
+    header {
+        flex-direction: column;
+    }
+    .theLinks {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .heading {
+        margin: auto;
+        border-radius: 25px;
+    }
+    .line {
+        border: 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .aLink {
+        display: flex;
+        flex-direction: column;
+    }
+    .aLink a {
+        margin-bottom: 10%;
+    }
 }
